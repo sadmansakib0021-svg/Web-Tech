@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    
+    <style>
+        body{
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-box {
+            background-color: #cfe2f3; /* Light blue box */
+            width: 350px;
+            padding: 30px;
+            margin: 100px auto;
+            border: 1px solid #000;
+            border-radius: 4px;
+        }
+
+        label {
+            font-size: 16px;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #000;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .login-btn {
+            display: block;
+            margin-left: auto;
+            padding: 8px 20px;
+            border: 1px solid #000;
+            border-radius: 8px;
+            background-color: #cfe2f3;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #b6d2ed;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

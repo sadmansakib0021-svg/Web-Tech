@@ -1,0 +1,74 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3f5e1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #179eb3;
+    color: white;
+    padding: 8px;
+}
+
+/* Profile section */
+.profile {
+     width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #abebc5;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Hover effect */
+.profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Image styling */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #004080;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+}
+
+/* Name and text styling */
+.profile h2 {
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    color: #444;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.profile .bio {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background-color: #179eb3;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
