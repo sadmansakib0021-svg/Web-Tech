@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title> Comment System</title>
+    <link rel="stylesheet" href="labexam.css">
+</head>
+<body>
+
+<h1>The Daily Star</h1>
+
+<!-- ARTICLE 1 -->
+<div class="article">
+    <h2>Article 1:Political News</h2>
+    <p>“This article covers the recent Political news for the comment system.” </p>
+
+    <div class="stats">
+        Total Comments: <span id="count1">0</span> |
+        Average Rating: <span id="avg1">0</span>
+    </div>
+
+    <h3>Leave a Comment</h3>
+    <form class="commentForm" data-id="1">
+        <input type="text" class="name" placeholder="Name">
+        <p class="error nameError"></p>
+
+        <input type="text" class="email" placeholder="Email (optional)">
+        <p class="error emailError"></p>
+
+        <textarea class="comment" placeholder="Write comment..."></textarea>
+        <p class="error commentError"></p>
+
+        <div class="stars">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+        </div>
+        <p>Rating: <span class="selectedRating">0</span></p>
+
+        <button type="submit">Post Comment</button>
+    </form>
+
+    <div class="comments" id="comments1"></div>
+</div>
+
+
+<!-- ARTICLE 2 -->
+<div class="article">
+    <h2>Article 2:Sports News</h2>
+    <p>“This article covers recent sports updates and is included here to test and display the comment system.” </p>
+
+    <div class="stats">
+        Total Comments: <span id="count2">0</span> |
+        Average Rating: <span id="avg2">0</span>
+    </div>
+
+    <h3>Leave a Comment</h3>
+    <form class="commentForm" data-id="2">
+        <input type="text" class="name" placeholder="Name">
+        <p class="error nameError"></p>
+
+        <input type="text" class="email" placeholder="Email (optional)">
+        <p class="error emailError"></p>
+
+        <textarea class="comment" placeholder="Write comment..."></textarea>
+        <p class="error commentError"></p>
+
+        <div class="stars">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+        </div>
+        <p>Rating: <span class="selectedRating">0</span></p>
+
+        <button type="submit">Post Comment</button>
+    </form>
+
+    <div class="comments" id="comments2"></div>
+</div>
+
+<script src="labexam.js"></script>
+</body>
+</html>

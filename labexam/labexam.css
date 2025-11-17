@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background: #88b6e4;
+    padding: 20px;
+}
+
+.article {
+    background: rgb(18, 98, 130);
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #168585;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: rgb(241, 73, 73);
+    font-size: 20px;
+}
+
+.stars span {
+    font-size: 28px;
+    cursor: pointer;
+    color: #ccc;         
+    transition: 0.2s;
+}
+
+.stars span:hover,
+.stars span:hover ~ span {
+    color: #ccc;          
+}
+
+.stars .selected {
+    color: gold;
+}
+.stars span:hover {
+    color: gold;
+}
+
+
+
+.commentBox {
+    background: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
